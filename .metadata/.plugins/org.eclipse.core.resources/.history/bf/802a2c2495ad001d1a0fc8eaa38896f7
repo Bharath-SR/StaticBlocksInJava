@@ -1,0 +1,13 @@
+
+public class StaticBlocksEx3 {
+	
+	static {
+		System.out.println("A class static block");
+	}
+
+	public static void main(String[] args) throws ClassNotFoundException {
+		Class.forName("B");
+
+	}
+
+}
